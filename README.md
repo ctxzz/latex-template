@@ -1,6 +1,11 @@
 # latex-template
 
+
 Latex development container for Visual Studio Code
+
+1. Clone this repository.
+2. Add a latex template folder.
+3. Open folder in a devcontainer.
 
 ## Credits
 
