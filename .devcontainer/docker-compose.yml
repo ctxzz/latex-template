@@ -1,0 +1,10 @@
+services:
+  latex-template:
+    image: ctxzz/latex-template:latest
+    # build: . # if you want to build the image locally
+    volumes:
+      - ../:/workspaces/latex-template
+      - ./.latexmkrc:/root/.latexmkrc
+    tty: true
+    environment:
+      SHELL: "/bin/bash"

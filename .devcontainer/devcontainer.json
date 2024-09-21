@@ -1,0 +1,23 @@
+{
+    "name": "latex-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "latex-template",
+    "workspaceFolder": "/workspaces/latex-template",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extensions.verifySignature": false
+            },
+            "extensions": [
+                "james-yu.latex-workshop",
+                "GitHub.copilot",
+                "MS-CEINTL.vscode-language-pack-ja",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "znck.grammarly",
+                "vscode-icons-team.vscode-icons"
+            ]
+        }
+    }
+}
